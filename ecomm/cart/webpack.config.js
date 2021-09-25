@@ -1,5 +1,7 @@
+// This is going to take some kind a HTML file inside of our project to inject couple of Script Tags inside of it
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+// integration plugin
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 
 module.exports = {
