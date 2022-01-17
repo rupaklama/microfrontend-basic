@@ -23,7 +23,7 @@ const mount = el => {
 
 // Context/Situation #1
 // We are running this file in development in isolation
-// We are using our local index.html file which Definitely has an element with an c
+// We are using our local index.html file which Definitely has an element with an ID of 'dev-products'
 // to render our app into that element - usual regular way
 // note - first we need to check whether or not, we are in isolation
 // we will be doing two checks,
